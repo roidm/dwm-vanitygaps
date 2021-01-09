@@ -22,11 +22,15 @@ static const char col_1[]  = "#121419"; /* background color of bar */
 static const char col_2[]  = "#444444"; /* border color unfocused windows */
 static const char col_3[]  = "#d7d7d7";
 static const char col_4[]  = "#924441";
+static const char col_5[]  = "#272a33";
+static const char col_6[]  = "#e6e6e6";
+
 
 static const char *colors[][3]        = {
         /*               fg         bg         border   */
         [SchemeNorm] = { col_3, col_1, col_2 },
         [SchemeSel]  = { col_3, col_4,  col_4 },
+        [SchemeTitle]  = { col_6, col_5,  col_2  },
 };
 
 /* tagging */
